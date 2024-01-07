@@ -32,16 +32,4 @@ document.body.appendChild(container);
 
 /////////////////////////////////////////////////////////////////////////////////
 
-// 创建<link>标签并设置属性
-var link = document.createElement("link");
-link.rel = "stylesheet";
-link.href = "../styles.css";
-
-
-// 将创建的元素添加到<head>标签中
-var head = document.head || document.getElementsByTagName("head")[0];
-head.appendChild(link);
-head.appendChild(meta);
-
-/////////////////////////////////////////////////////////////////////////////////
 

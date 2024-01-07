@@ -9,6 +9,7 @@
         margin-top: 120px;
         width: 525px;
         font-size: 15px;
+
         display: flex;
         flex-direction: column;
         min-height: 100vh;
@@ -48,16 +49,19 @@
     #posts-container {
         line-height: 25px;
         margin-bottom: 50px;
+        flex: 1;
     }
 
     #about-container {
         line-height: 25px;
         margin-bottom: 50px;
+        flex: 1;
     }
 
     #catalogs-container {
         padding-bottom: 100px;
         position: sticky;
+        flex: 1;
     }
 
     #catalogs-container a{
@@ -105,6 +109,7 @@
         font-family: Georgia, serif;
         white-space: pre-wrap;
         word-wrap: break-word;
+        color: black;
         line-height: 26px;
         margin-bottom: 50px;
         flex: 1;
@@ -144,3 +149,4 @@
     }
 
   }
+  
