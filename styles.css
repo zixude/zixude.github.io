@@ -49,19 +49,16 @@
     #posts-container {
         line-height: 25px;
         margin-bottom: 50px;
-        flex: 1;
     }
 
     #about-container {
         line-height: 25px;
         margin-bottom: 50px;
-        flex: 1;
     }
 
     #catalogs-container {
         padding-bottom: 100px;
         position: sticky;
-        flex: 1;
     }
 
     #catalogs-container a{
@@ -98,8 +95,9 @@
 @media (max-width: 767px) {
     body{
         font-family: Georgia, serif;
+        margin-left: 20px;
+        margin-right: 20px;
         margin-top: 120px;
-        font-size: 15px;
         display: flex;
         flex-direction: column;
         min-height: 100vh;
@@ -130,6 +128,11 @@
     }
 
     #posts-container {
+        line-height: 25px;
+        margin-bottom: 50px;
+    }
+
+    #about-container {
         line-height: 25px;
         margin-bottom: 50px;
     }
