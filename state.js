@@ -1,3 +1,23 @@
+
+
+/////////////////////////////////////////////////////////////////////////////////
+
+
+    // 创建 meta 元素
+    var metaTag = document.createElement('meta');
+  
+    // 设置 meta 元素的属性
+    metaTag.setAttribute('charset', 'UTF-8');
+  
+    // 获取 head 元素
+    var headTag = document.getElementsByTagName('head')[0];
+  
+    // 将 meta 元素添加到 head 元素中
+    headTag.appendChild(metaTag);
+
+
+/////////////////////////////////////////////////////////////////////////////////
+
 // 创建 meta 元素
 var metaTag = document.createElement('meta');
 
@@ -11,21 +31,9 @@ var headTag = document.getElementsByTagName('head')[0];
 // 将 meta 元素添加到 head 元素中
 headTag.appendChild(metaTag);
 
-/////////////////////////////////////////////////////////////////////////////////
-
-// 创建 meta 元素
-var metaTag = document.createElement('meta');
-
-// 设置 meta 元素的属性
-metaTag.setAttribute('charset', 'UTF-8');
-
-// 获取 head 元素
-var headTag = document.getElementsByTagName('head')[0];
-
-// 将 meta 元素添加到 head 元素中
-headTag.appendChild(metaTag);
 
 /////////////////////////////////////////////////////////////////////////////////
+
 
 // 创建<link>标签并设置属性
 var link = document.createElement("link");
