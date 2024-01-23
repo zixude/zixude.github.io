@@ -26,6 +26,7 @@ var links = [
   { text: "信息管理" },
   { text: "Navalism" },
   { text: "减肥要点" },
+  { text: "中英思维浅析" },
   // 其他链接...
 ];
 
