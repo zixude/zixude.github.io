@@ -1,11 +1,13 @@
- /* 全局声明存在该字体文件，再方便其它元素使用 */
-@font-face {
-    font-family: 'George';
-    src: url('George.otf') format('opentype');
-  }
+
  
  /* 桌面端样式 */
   @media (min-width: 768px) {
+
+     /* 全局声明存在该字体文件，再方便其它元素使用 */
+    @font-face {
+        font-family: 'George';
+        src: url('George.otf') format('opentype');
+    }
 
     body{
         font-family: Georgia, serif;
@@ -97,6 +99,13 @@
 
 /* 手机端样式 */
 @media (max-width: 767px) {
+
+     /* 全局声明存在该字体文件，再方便其它元素使用 */
+     @font-face {
+        font-family: 'George';
+        src: url('George.otf') format('opentype');
+    }
+
     body{
         font-family: Georgia, serif;
         margin-left: 20px;
