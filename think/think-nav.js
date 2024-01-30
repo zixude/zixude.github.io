@@ -27,6 +27,7 @@ var links = [
   { text: "Navalism" },
   { text: "减肥要点" },
   { text: "中英思维浅析" },
+  { text: "平台资本主义下的个体" },
   // 其他链接...
 ];
 
