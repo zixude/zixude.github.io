@@ -18,14 +18,9 @@ document.body.appendChild(container);
 
 // 创建链接数组
 var links = [
-  { text: "文学写作要则" },
   { text: "博客哲学" },
-  { text: "极简主义" },
-  { text: "认知构建" },
-  { text: "信息的启发与关联" },
+  { text: "认知原则" },
   { text: "信息管理" },
-  { text: "Navalism" },
-  { text: "减肥要点" },
   { text: "中英思维浅析" },
   { text: "平台资本主义下的个体" },
   // 其他链接...
