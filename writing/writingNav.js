@@ -25,6 +25,7 @@ var links = [
   { text: "互动叙事的曙光" },
   { text: "代理平衡" },
   { text: "何以解忧" },
+  { text: "AI杂谈" },
   { text: "天童是风" },
   { text: "孤山" },
   { text: "我在兰亭" },
