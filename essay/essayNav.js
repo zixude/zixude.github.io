@@ -43,6 +43,7 @@ var links = [
   { text: "分身" },
   { text: "印象" },
   { text: "虚荣" },
+  { text: "焰火" },
   { text: "乞讨" },
   { text: "观念世界" },
   { text: "轮盘" },
