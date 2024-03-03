@@ -12,9 +12,10 @@ h4Title.textContent = "Catalogs";
 
 // 创建链接数组
 var links = [
-  { text: "散集 essay", url: "../essay/essay.html" },
-  { text: "断想 insight", url: "../insight/insight.html" },
-  { text: "文字 writing", url: "../writing/writing.html" },
+  { text: "散集 Essay", url: "../essay/essay.html" },
+  { text: "断想 Insight", url: "../insight/insight.html" },
+  { text: "文字 Writing", url: "../writing/writing.html" },
+  { text: "设计 Design", url: "https://design-9la.pages.dev" },
 ];
 
 var linksHTML = ""; // 存储链接元素的 HTML 字符串
