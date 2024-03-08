@@ -65,7 +65,8 @@
     }
 
     #catalogs-container a{
-        color: grey;
+        font-size: bold;
+        color: #A5A5A5;
         text-decoration: none;
     }
 
