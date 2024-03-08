@@ -51,8 +51,27 @@ headTag.appendChild(metaTag);
 
 
 
+// 片段四：给网站添加一个favicon图标
 
-// 片段四：给页面添加指向统一的css文件
+// 创建 link 元素
+var linkTag = document.createElement('link');
+
+// 设置 link 元素的属性
+linkTag.setAttribute('rel', 'icon');
+linkTag.setAttribute('href', '../app/favicon_cloud.png');
+linkTag.setAttribute('type', 'image/x-icon');
+linkTag.setAttribute('sizes', '1x1'); 
+
+// 获取 head 元素
+var headTag = document.getElementsByTagName('head')[0];
+
+// 将 link 元素添加到 head 元素中
+headTag.appendChild(linkTag);
+
+
+
+
+// 片段五：给页面添加指向统一的css文件
 
 // 创建<link>标签并设置属性
 var link = document.createElement("link");
