@@ -2,7 +2,7 @@
 /////////////////////////////////////////////////////////////////////////////////
 
 // 创建标题元素
-var h4Title = document.createElement("h4");
+var h4Title = document.createElement("h1");
 h4Title.textContent = "Posts";
 console.log(h4Title);
 

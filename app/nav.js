@@ -12,8 +12,7 @@ h4Title.textContent = "Catalogs";
 
 // 创建链接数组
 var links = [
-  { text: "散 集", url: "../essay/essay.html" },
-  { text: "断 想", url: "../insight/insight.html" },
+  { text: "散 集", url: "../essay/index.html" },
   { text: "微 博", url: "../weibo/weibo2024.html" },
   { text: "文 字", url: "../writing/writing.html" },
   { text: "设 计", url: "https://design-9la.pages.dev" },
