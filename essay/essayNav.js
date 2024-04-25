@@ -40,6 +40,12 @@ var links = [
   { text: "罗生门评" },
   { text: "能与愿" },
   { text: "妖猫传评" },
+  { text: "企慕情境" },
+  { text: "何以解忧" }, 
+  { text: "天童是风" },
+  { text: "孤山" }, 
+  { text: "我在兰亭" },
+  { text: "故宫有垫脚石" }, 
 ];
 
 var linksHTML = ""; // 存储链接元素的 HTML 字符串
@@ -133,6 +139,8 @@ var links = [
   { text: "〇六" },
   { text: "〇七" },
   { text: "〇八" },
+  { text: "〇九" },
+  { text: "十〇" },
 ];
 
 var linksHTML = ""; // 存储链接元素的 HTML 字符串

@@ -18,26 +18,17 @@ document.body.appendChild(container);
 
 // 创建链接数组
 var links = [
+  { text: "博客哲学" },
   { text: "自我的和解" },
   { text: "中英思维浅析" },
-  { text: "博客哲学" },
+  { text: "原则" },
   { text: "从信息传递窥个体时代" },
   { text: "互动叙事的曙光" },
   { text: "代理平衡" },
-  { text: "何以解忧" },
   { text: "人工智能杂谈" },
-  { text: "天童是风" },
-  { text: "孤山" },
-  { text: "我在兰亭" },
-  { text: "故宫有垫脚石" },
-  { text: "平台资本主义下的个体" },
-  { text: "企慕情境" },
-  { text: "所见木心" },
-  { text: "黄金时代" },
-  { text: "思想的陷阱" },
-  { text: "通感移植" },
-  { text: "认知原则" },
   { text: "信息管理" },
+  { text: "思想的陷阱" },
+  { text: "平台资本主义下的个体" },
 ];
 
 var linksHTML = ""; // 存储链接元素的 HTML 字符串
