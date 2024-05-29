@@ -9,13 +9,15 @@
     body{
         font-family: Georgia, serif;
         margin-left:120px;
-        margin-top: 120px;
+        margin-top:240px;
         width: 525px;
         font-size: 15px;
 
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
+        display: flex;  /* 设置body的展示为灵活布局 */
+        flex-direction: column;  /* 设置body的灵活布局为纵向布局 */
+
+        --min-height: calc(100vh - 110px);  /* 创建一个变量值--min-height用来计算实际总高度值 */
+        min-height: var(--min-height);   /* 将实际算出来的高度值赋给body最小高度 */
     }
 
 
@@ -25,15 +27,16 @@
         word-wrap: break-word;
         line-height: 26px;
         color: black;
-        margin-bottom: 70px;
-        flex: 1;
+
+        margin-bottom: 100px;
+        flex: 1;  /* 设置pre在body内布局占比比值为1 */
     }
 
 
     h1 {
         color: black;
         font-size: 15px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         font-weight: 900;
     }
 
@@ -42,7 +45,7 @@
     }
 
     p {
-        background-color: white;
+        
     }
 
     a{
@@ -58,7 +61,7 @@
 
     #posts-container {
         line-height: 25px;
-        margin-bottom: 70px;
+        flex: 1;
     }
 
     #about-container {
@@ -67,8 +70,7 @@
     }
 
     #catalogs-container {
-        padding-bottom: 100px;
-        position: sticky;
+        margin-bottom: 100px;
     }
 
     #catalogs-container a{
@@ -97,9 +99,12 @@
         margin-right: 20px;
         margin-top: 120px;
         font-size: 15px;
+
         display: flex;
         flex-direction: column;
-        min-height: 100vh;
+
+        --min-height: calc(100vh - 0px);  /* 创建一个变量值--min-height用来计算实际总高度值 */
+        min-height: var(--min-height);   /* 将实际算出来的高度值赋给body最小高度 */
     }
 
     pre {
@@ -136,6 +141,7 @@
 
     #posts-container {
         line-height: 25px;
+        flex: 1;
         margin-bottom: 50px;
     }
 
@@ -146,7 +152,6 @@
 
     #catalogs-container {
         padding-bottom: 100px;
-        position: sticky;
     }
 
     #catalogs-container a{

@@ -23,7 +23,7 @@ headTag.appendChild(metaTag);
 var titleTag = document.createElement('title');
 
 // 设置 title 元素的文本内容
-titleTag.textContent = '自序｜璞成';
+titleTag.textContent = '璞成';
 
 // 获取 head 元素
 var headTag = document.getElementsByTagName('head')[0];
@@ -51,9 +51,9 @@ headTag.appendChild(metaTag);
 
 
 
-// 片段四：给网站添加一个favicon图标
+// 片段四：给网站添加一个favicon图标（已注释，不需要favicon）
 
-// 创建 link 元素
+/* // 创建 link 元素
 var linkTag = document.createElement('link');
 
 // 设置 link 元素的属性
@@ -66,7 +66,7 @@ linkTag.setAttribute('sizes', '1x1');
 var headTag = document.getElementsByTagName('head')[0];
 
 // 将 link 元素添加到 head 元素中
-headTag.appendChild(linkTag);
+headTag.appendChild(linkTag); */
 
 
 
