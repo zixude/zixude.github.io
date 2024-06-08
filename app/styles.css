@@ -1,13 +1,27 @@
-@font-face {
+/* @font-face {
     font-family: Georgia;
     src: url('Georgia.ttf') format('truetype');
   }
- 
+  */
+
+
+  @font-face {
+    font-family: Huiwen-mincho;
+    src: url('Huiwen-mincho.otf') format('opentype');
+  }
+
+
  /* 桌面端样式 */
   @media (min-width: 768px) {
 
+    /* 通过伪类选择器来定制滚动条而隐藏滚动条，适用于 WebKit 内核的浏览器如 Chrome、Safari 等） */
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+
     body{
-        font-family: Georgia, serif;
+        font-family: Huiwen-mincho, serif;
         margin-left:120px;
         margin-top:240px;
         width: 525px;
@@ -18,11 +32,12 @@
 
         --min-height: calc(100vh - 110px);  /* 创建一个变量值--min-height用来计算实际总高度值 */
         min-height: var(--min-height);   /* 将实际算出来的高度值赋给body最小高度 */
+
     }
 
 
     pre {
-        font-family: Georgia, serif;
+        font-family: Huiwen-mincho, serif;
         white-space: pre-wrap;
         word-wrap: break-word;
         line-height: 26px;
