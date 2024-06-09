@@ -76,6 +76,7 @@
 
     #posts-container {
         line-height: 25px;
+        margin-bottom: 50px;
         flex: 1;
     }
 

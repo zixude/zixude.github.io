@@ -21,7 +21,7 @@ var linksHTML = ""; // 存储链接元素的 HTML 字符串
 
 // 生成链接元素的 HTML 字符串
 links.forEach(function(link) {
-  linksHTML += `<a href="${link.url}">${link.text}</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp`;
+  linksHTML += `<a href="${link.url}">${link.text}</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp`;
 });
 
 // 将标题和链接内容添加到容器元素中

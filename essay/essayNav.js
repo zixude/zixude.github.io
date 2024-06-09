@@ -4,7 +4,7 @@
 
 // 创建标题元素
 var h4Title = document.createElement("h1");
-h4Title.textContent = "一\u00A0\u00A0\u00A0\u00A0辑";
+h4Title.textContent = "一\u00A0\u00A0辑";
 console.log(h4Title);
 
 // 创建容器元素并设置其ID
@@ -63,7 +63,7 @@ container.innerHTML = linksHTML;
 
 // 创建标题元素
 var h4Title = document.createElement("h1");
-h4Title.textContent = "二\u00A0\u00A0\u00A0\u00A0辑";
+h4Title.textContent = "二\u00A0\u00A0辑";
 console.log(h4Title);
 
 // 创建容器元素并设置其ID
@@ -116,7 +116,7 @@ container.innerHTML = linksHTML;
 
 // 创建标题元素
 var h4Title = document.createElement("h1");
-h4Title.textContent = "三\u00A0\u00A0\u00A0\u00A0辑";
+h4Title.textContent = "三\u00A0\u00A0辑";
 console.log(h4Title);
 
 // 创建容器元素并设置其ID
