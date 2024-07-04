@@ -1,0 +1,69 @@
+<script src="../app/state.js"></script>
+
+
+<body style=" background-color: white;">
+    
+<p style="color: black; font-size: 20px;">My Projects</p>
+
+
+<pre>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</pre>
+
+
+<div class="project">
+<img class="show" src="example.jpg" onclick="location.href='Hangzhou City.html'">
+<img class="show" src="example.jpg" onclick="location.href=''">
+<img class="show" src="example.jpg" onclick="location.href=''">
+<img class="show" src="example.jpg" onclick="location.href=''">
+</div>
+
+</body>
+
+
+
+
+<style>
+@media (min-width: 768px) {
+    .project{
+        display: flex; 
+        flex-direction: row; 
+        flex-wrap: wrap; 
+        width: calc(100vw - 120px);
+        max-width: 1260px; 
+        margin-bottom: 100px;
+    }
+
+    .show{
+        width: 400px;
+        height: 350px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        object-fit: cover;  /* 使图片裁剪边缘部分，使中心位置始终可见 */
+        cursor: pointer; /* 添加鼠标悬停时显示为小手 */
+        border-radius: 10px; /* 添加圆角 */
+    }
+}
+
+
+/* 手机端样式 */
+@media (max-width: 767px) {
+    .project{
+        margin-bottom: 50px;
+    }
+
+    .show{
+        width: 100%;
+        height: 350px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        object-fit: cover;  /* 使图片裁剪边缘部分，使中心位置始终可见 */
+        cursor: pointer; /* 添加鼠标悬停时显示为小手 */
+    }
+}
+</style>
+
+
+
+    
+<script src="../app/nav.js"></script>

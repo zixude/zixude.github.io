@@ -59,8 +59,13 @@
         color: black;
     }
 
-    p {
-        
+    p{
+        font-family: Huiwen-mincho, serif;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        color: black;
+        line-height: 26px;
+        margin-bottom: 50px;
     }
 
     a{
@@ -133,6 +138,16 @@
         margin-bottom: 50px;
         flex: 1;
     }
+
+    p{
+        font-family: Huiwen-mincho, serif;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        color: black;
+        line-height: 26px;
+        margin-bottom: 50px;
+    }
+    
 
     a{
         color: black;

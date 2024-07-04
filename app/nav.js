@@ -20,8 +20,9 @@ linksContainer.style.justifyContent = "space-between";  // 链接文本均匀分
 // 创建链接数组
 var links = [
   { text: "散 集", url: "../essay/index.html" },
-  { text: "微 博", url: "../weibo/weibo2024.html" },
+  //  { text: "微 博", url: "../weibo/weibo2024.html" },   目前隐藏
   { text: "文 字", url: "../writing/writing.html" },
+  { text: "专 项", url: "../works/index.html" },
   { text: "设 计", url: "https://design-9la.pages.dev" },
 ];
 
