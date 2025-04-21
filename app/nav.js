@@ -22,8 +22,8 @@ var links = [
   { text: "散 集", url: "../essay/index.html" },
   //  { text: "微 博", url: "../weibo/weibo2024.html" },   目前隐藏
   { text: "文 字", url: "../writing/writing.html" },
-  { text: "专 项", url: "../works/index.html" },
-  { text: "设 计", url: "https://design-9la.pages.dev" },
+  { text: "设 计", url: "../design/design.html" },
+  { text: "专 项", url: "../works/works.html" },
 ];
 
 // 生成链接元素并直接添加到链接容器中
