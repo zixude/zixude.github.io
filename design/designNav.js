@@ -20,6 +20,7 @@ document.body.appendChild(container);
 var links = [
   { text: "黑魂原罪学者评" },
   { text: "皮诺曹的谎言评" },
+  { text: "黑猴与魂游的上扬曲线" },
 ];
 
 var linksHTML = ""; // 存储链接元素的 HTML 字符串
