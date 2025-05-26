@@ -32,6 +32,7 @@ var links = [
   { text: "思想的陷阱" },
   { text: "平台资本主义下的个体" },
   { text: "欧洲古典的精妙感" },
+  { text: "破地狱评" },
 ];
 
 var linksHTML = ""; // 存储链接元素的 HTML 字符串
