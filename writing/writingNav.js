@@ -31,6 +31,7 @@ var links = [
   { text: "禅修要点" },
   { text: "思想的陷阱" },
   { text: "平台资本主义下的个体" },
+  { text: "欧洲古典的精妙感" },
 ];
 
 var linksHTML = ""; // 存储链接元素的 HTML 字符串
