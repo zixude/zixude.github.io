@@ -1,0 +1,197 @@
+/* @font-face {
+    font-family: Georgia;
+    src: url('Georgia.ttf') format('truetype');
+  }
+  */
+
+
+@font-face {
+    font-family: Huiwen-mincho;
+    src: url('Huiwen-mincho.otf') format('opentype');
+  }
+
+
+ /* 桌面端样式 */
+  @media (min-width: 768px) {
+
+    /* 通过伪类选择器来定制滚动条而隐藏滚动条，适用于 WebKit 内核的浏览器如 Chrome、Safari 等） */
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+
+    body{
+        font-family: Huiwen-mincho, serif;
+        margin-left:120px;
+        margin-top:240px;
+        width: 525px;
+        font-size: 15px;
+
+        display: flex;  /* 设置body的展示为灵活布局 */
+        flex-direction: column;  /* 设置body的灵活布局为纵向布局 */
+
+        --min-height: calc(100vh - 110px);  /* 创建一个变量值--min-height用来计算实际总高度值 */
+        min-height: var(--min-height);   /* 将实际算出来的高度值赋给body最小高度 */
+
+    }
+
+
+    pre {
+        font-family: Huiwen-mincho, serif;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        line-height: 26px;
+        color: black;
+
+        margin-bottom: 100px;
+        flex: 1;  /* 设置pre在body内布局占比比值为1 */
+    }
+
+
+    h1 {
+        color: black;
+        font-size: 15px;
+        margin-bottom: 20px;
+        font-weight: 900;
+    }
+
+    h4 {
+        color: black;
+    }
+
+    p{
+        font-family: Huiwen-mincho, serif;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        color: black;
+        line-height: 26px;
+        margin-bottom: 50px;
+    }
+
+    a{
+        color: black;
+        padding-bottom: 10px;
+        text-decoration: none; /* 移除下划线 */
+    }
+
+    a:hover{
+        color: black;
+        text-decoration: underline; /* 移除下划线 */
+    }
+
+    #posts-container,
+    .posts-container {
+        line-height: 25px;
+        margin-bottom: 100px;
+        flex: 1;
+    }
+
+    #about-container {
+        line-height: 25px;
+        margin-bottom: 50px;
+    }
+
+    #catalogs-container {
+        margin-bottom: 100px;
+        width: 100%;  
+    }
+
+    #catalogs-container a{
+        font-size: bold;
+        color: #A5A5A5;
+        text-decoration: none;
+    }
+
+    #catalogs-container a:hover{
+        color: black;
+        text-decoration: underline;
+    }
+
+
+}
+
+
+
+
+/* 手机端样式 */
+@media (max-width: 767px) {
+
+    body{
+        font-family: Huiwen-mincho, serif;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 120px;
+        font-size: 15px;
+
+        display: flex;
+        flex-direction: column;
+
+        --min-height: calc(100vh - 0px);  /* 创建一个变量值--min-height用来计算实际总高度值 */
+        min-height: var(--min-height);   /* 将实际算出来的高度值赋给body最小高度 */
+    }
+
+    pre {
+        font-family: Huiwen-mincho, serif;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        color: black;
+        line-height: 26px;
+        margin-bottom: 50px;
+        flex: 1;
+    }
+
+    p{
+        font-family: Huiwen-mincho, serif;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        color: black;
+        line-height: 26px;
+        margin-bottom: 50px;
+    }
+    
+
+    a{
+        color: black;
+        text-decoration: none; /* 移除下划线 */
+    }
+
+    a:hover{
+        color: black;
+        text-decoration: underline; /* 移除下划线 */
+    }
+
+    h1 {
+        color: black;
+        font-size: 15px;
+        font-weight: 900;
+        margin-bottom: 10px;
+    }
+
+    h4 {
+        color: black;
+        margin-top: 50px;
+    }
+
+    #posts-container,
+    .posts-container {
+        line-height: 25px;
+        flex: 1;
+        margin-bottom: 50px;
+    }
+
+    #about-container {
+        line-height: 25px;
+        margin-bottom: 50px;
+    }
+
+    #catalogs-container {
+        padding-bottom: 100px;
+    }
+
+    #catalogs-container a{
+        color: grey;
+        text-decoration: none;
+    }
+
+  }
+  
